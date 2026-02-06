@@ -1,0 +1,9 @@
+title: "Santhosh Nayak"
+description: "Systems, AI agents, auditability, and policy enforcement"
+theme: minima
+markdown: kramdown
+
+header_pages:
+  - index.md
+  - blog/index.md
+  - projects/index.md
