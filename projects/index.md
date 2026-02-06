@@ -1,3 +1,3 @@
 # Projects
 
-Welcome to the projects section.
+A mix of **production-oriented SaaS work** and **focused infrastructure experiments**.

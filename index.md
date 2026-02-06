@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Home
 ---
 
-# Santhosh Nayak
 
 I design and build **backend and distributed systems** with a focus on **AI-enabled tooling**, **auditability**, and **security-first architecture**.
 
