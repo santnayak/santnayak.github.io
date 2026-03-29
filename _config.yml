@@ -1,11 +1,31 @@
 title: "Santhosh Nayak"
-description: "Systems · AI agents · auditability · policy enforcement"
+description: "Systems · AI agents · observability · auditability · policy enforcement"
 theme: minima
 markdown: kramdown
 
+# Modern minimal styling
+minima:
+  skin: classic
+  
 header_pages:
   - index.md
   - blog/index.md
   - projects/index.md
 
 permalink: pretty
+
+# Additional settings for clean URLs and modern features
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Modern typography settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    
+# Clean GitHub Pages setup
+url: "https://santnayak.github.io"
+baseurl: ""
