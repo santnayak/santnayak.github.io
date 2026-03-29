@@ -12,23 +12,26 @@ I currently split my time between:
 
 This site is a lightweight, versioned engineering notebook:
 - **Blog** — technical notes from real systems and experiments
-- **Projects** — focused builds and prototypes (some production-bound)
+- **Projects** — focused builds and prototypes
 
 ---
 
 ## Current Focus
 
-- **Zeitly** — a B2B time-tracking and workforce management SaaS in active development  
-  Focus areas: multi-tenant architecture, audit logs, compliance-readiness, and clean UX for SMBs
+- **Mudipu - A Control plane for AI agents, combining registry (Hub), runtime (Platform), and observability (SDK).** 
+— tracing prompts, tool calls, context health and scores
 
-- **AI agent auditability** — tracing prompts, tool calls, and side effects  
-  (nanobot / openclaw-style agents behind a controlled proxy)
+- Experimenting to validate context health socres - Generating a dataset
 
-- **Policy enforcement at the LLM boundary**  
-  Redaction, allow/deny rules, and safe defaults before side effects occur
+- **LLM Evaluation**   
+  
 
 - **Observability & operability**  
   Designing systems that are debuggable, inspectable, and explainable by default
+ 
+
+- **Zeitly** — a B2B time-tracking and workforce management SaaS in active development  
+  Focus areas: multi-tenant architecture, audit logs, compliance-readiness, and clean UX for SMBs
 
 ---
 
@@ -42,9 +45,10 @@ This site is a lightweight, versioned engineering notebook:
 
 ### AI & Agent Infrastructure
 - LLM proxies and instrumentation
-- prompt + response tracing (Langfuse-style)
+- prompt + response tracing 
 - agent tool execution (shell, filesystem, network)
 - guardrails and policy layers for agents
+- data pipelines and ETL design -from clickhouse
 
 ### Security & Compliance-Minded Design
 - audit logs and traceability
