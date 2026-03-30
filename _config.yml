@@ -1,12 +1,8 @@
 title: "Santhosh Nayak"
 description: "Systems · AI agents · observability · auditability · policy enforcement"
-theme: minima
+theme: jekyll-theme-cayman
 markdown: kramdown
 
-# Modern minimal styling
-minima:
-  skin: classic
-  
 header_pages:
   - index.md
   - blog/index.md
