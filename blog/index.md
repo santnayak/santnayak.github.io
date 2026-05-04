@@ -7,6 +7,8 @@ Short technical notes based on hands-on work with **AI agents**, **backend syste
 
 ## Posts
 
+- **When y
+
 - *(upcoming)* **Auditing Local AI Agents: nanobot → proxy → LLM**  
   Topics: prompt visibility, tool-call tracing, redaction, policy enforcement
 
