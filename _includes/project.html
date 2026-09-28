@@ -1,0 +1,6 @@
+<article class="project-card">
+  <p class="eyebrow">{{ include.project.label | escape }}</p>
+  <h3>{% if include.project.url %}<a href="{{ include.project.url }}">{{ include.project.name | escape }} <span aria-hidden="true">↗</span></a>{% else %}{{ include.project.name | escape }}{% endif %}</h3>
+  <p>{{ include.project.description | escape }}</p>
+  <div class="tags">{% for tag in include.project.tags %}<span>{{ tag | escape }}</span>{% endfor %}</div>
+</article>

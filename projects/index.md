@@ -1,9 +1,7 @@
-# Projects
-
-- [santnayak](https://github.com/santnayak/santnayak) - Profile repository with overview of work and interests
-
-- [Mudipu](https://mudipu.dev/) - Control plane for AI agents, combining registry (Hub), runtime (Platform), and observability (SDK).
-
-
-- [mudipu-python](https://github.com/santnayak/mudipu-python) - Mudipu is a lightweight Python SDK for tracing, analyzing, and improving LLM-powered applications.
-
+---
+layout: default
+title: Projects
+---
+<header class="page-heading"><p class="eyebrow">Things I’m building</p><h1>Projects & experiments<span class="accent">.</span></h1><p class="lede">Practical tools, curious experiments, and the systems behind them.</p></header>
+<div class="project-grid">{% for project in site.data.projects %}{% include project.html project=project %}{% endfor %}</div>
+<p class="closing-note">More code and experiments on <a href="https://github.com/santnayak">GitHub ↗</a></p>

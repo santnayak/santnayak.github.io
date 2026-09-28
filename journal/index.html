@@ -1,0 +1,7 @@
+---
+layout: default
+title: Journal
+---
+<header class="page-heading"><p class="eyebrow">Notes along the way</p><h1>The journal<span class="accent">.</span></h1><p class="lede">Things I’m learning, building, and thinking about. Sometimes technical. Sometimes just life.</p></header>
+<div class="journal-note"><span class="eyebrow">A notebook, not a news feed</span><p>Weekly entries are coming: small discoveries, work in progress, and thoughts beyond the screen.</p></div>
+<div class="entry-list">{% for post in site.posts %}{% include entry.html post=post %}{% else %}<p>The first entry is on its way.</p>{% endfor %}</div>

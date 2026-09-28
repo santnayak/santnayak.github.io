@@ -1,7 +1,10 @@
-# When Your AI Agent Runs Out of Breath (and What I Did About It)
-
-**March 29, 2026** • *A journey from context explosion to v1.0*
-
+---
+layout: post
+title: "When Your AI Agent Runs Out of Breath (and What I Did About It)"
+date: 2026-03-29
+category: Tech
+description: "A journey from context explosion to building a tool for conversational AI health."
+permalink: /blog/agents_run_out_of_bredth.html
 ---
 
 ## The Year Everyone Went Agent-Crazy

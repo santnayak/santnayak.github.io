@@ -1,0 +1,16 @@
+- name: Mudipu
+  label: AI infrastructure
+  description: A control plane for AI agents, bringing together a registry, runtime, and observability. Making agent behavior easier to inspect and understand.
+  url: https://mudipu.dev/
+  link_label: Explore Mudipu
+  tags: [Agents, Observability]
+- name: Zeitly
+  label: B2B SaaS · In development
+  description: Time tracking and workforce management for small businesses. Built around multi-tenant architecture, audit logs, and a clear user experience.
+  tags: [SaaS, Backend systems]
+- name: mudipu-python
+  label: Open source
+  description: A Python SDK for tracing LLM applications and exploring context health, token usage, and tool execution.
+  url: https://github.com/santnayak/mudipu-python
+  link_label: View on GitHub
+  tags: [Python, Developer tools]

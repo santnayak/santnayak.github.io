@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<article class="post">
+  <a class="back-link" href="{{ '/journal/' | relative_url }}">← All journal entries</a>
+  <header class="page-heading">
+    <div class="eyebrow"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %d, %Y' }}</time> / {{ page.category | default: 'Journal' | escape }}</div>
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.description %}<p class="lede">{{ page.description | escape }}</p>{% endif %}
+  </header>
+  <div class="prose">{{ content }}</div>
+</article>

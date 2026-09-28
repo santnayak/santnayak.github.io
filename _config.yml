@@ -1,20 +1,25 @@
-title: "Santhosh Nayak"
-description: "Systems · AI agents · observability · auditability · policy enforcement"
-theme: minima
+title: Santhosh Nayak
+description: Backend systems, AI agents, and notes along the way.
+url: https://santnayak.github.io
+baseurl: ""
+markdown: kramdown
+permalink: /journal/:year/:month/:day/:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-markdown: kramdown
-permalink: pretty
-
-# Modern typography settings
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: 'highlight'
-    
-# Clean GitHub Pages setup
-url: "https://santnayak.github.io"
-baseurl: ""
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+exclude:
+  - vendor
+  - README.md
+  - templates
+  - Gemfile
+  - Gemfile.lock
